@@ -146,7 +146,7 @@ An application's lifecycle
 
 In a nutshell:
 
-1. `Create <createlink_>'_ an application (e.g. ``myapp``) from template:
+1. `Create <createlink_>`_ an application (e.g. ``myapp``) from template:
 
    .. code-block:: console
 
