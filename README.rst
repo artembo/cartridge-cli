@@ -153,7 +153,7 @@ In a nutshell:
        cartridge create --name myapp
        cd ./myapp
 
-2. `Build <Building an application_>_` the application
+2. `Build <Building an application_>`_ the application
    for local development and testing:
 
    .. code-block:: console
