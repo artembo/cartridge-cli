@@ -609,7 +609,7 @@ Stage 3. Cleaning up the files before packing
 On this stage, ``cartridge`` runs ``cartridge.post-build`` (if it exists) to remove
 junk files (like ``node_modules``) generated during application build.
 
-See an `example <cartridge-cli-example-cartridge-postbuild_>`_
+See an `example <Example: cartridge.post-build_>`_
 in `special files <Special files_>`_.
 
 .. cartridge-cli-tgz:
