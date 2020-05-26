@@ -115,11 +115,11 @@ That's all! You can visit http://localhost:8081 and see your application's Admin
    :align: center
    :scale: 100%
 
-You can find more details in the `documentation <cartridge-cli-usage>`_
+You can find more details in the documentation_
 or start with our
 `getting started guide <https://www.tarantool.io/en/doc/latest/getting_started/getting_started_cartridge/>`_.
 
-.. _cartridge-cli-usage:
+.. _documentation:
 
 -------------------------------------------------------------------------------
 Usage
@@ -146,8 +146,7 @@ An application's lifecycle
 
 In a nutshell:
 
-1. :ref:`Create <cartridge-cli-creating-an-application-from-template>`
-   an application (e.g. ``myapp``) from template:
+1. Create_ an application (e.g. ``myapp``) from template:
 
    .. code-block:: console
 
@@ -176,7 +175,7 @@ In a nutshell:
 
        cartridge pack rpm
 
-.. _cartridge-cli-creating-an-application-from-template:
+.. _Create:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Creating an application from template
