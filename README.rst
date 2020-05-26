@@ -146,7 +146,7 @@ An application's lifecycle
 
 In a nutshell:
 
-1. `Create <createlink_>`_ an application (e.g. ``myapp``) from template:
+1. `Create <creating-an-application-from-template_>`_ an application (e.g. ``myapp``) from template:
 
    .. code-block:: console
 
@@ -174,8 +174,6 @@ In a nutshell:
    .. code-block:: console
 
        cartridge pack rpm
-
-.. _createlink:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Creating an application from template
