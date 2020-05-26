@@ -175,7 +175,7 @@ In a nutshell:
 
        cartridge pack rpm
 
-.. _Create:
+.. _create:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Creating an application from template
