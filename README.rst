@@ -210,7 +210,7 @@ Let's take a closer look at the files inside the ``<app_name>/`` directory:
   * ``stateboard.init.lua`` file which is the entry point for the application
     `stateboard <https://github.com/tarantool/cartridge/blob/master/topics/failover.md>`_
 
-* :ref:`special files <cartridge-cli-special-files>` (used to build and pack
+* `special files <Special files_>`_ (used to build and pack
   the application):
 
   * ``cartridge.pre-build``
@@ -302,7 +302,7 @@ You can do it using the file ``cartridge.pre-build`` in your application root
 (again, you can find this file within the application directory created from template).
 In this file, you can specify all rocks to build
 (e.g. ``tarantoolctl rocks make --chdir ./third_party/proj``).
-For details, see :ref:`special files <cartridge-cli-special-files>`.
+For details, see `special files <Special files_>`_.
 
 As a result, in the application's ``.rocks`` directory you will get a fully built
 application that you can start locally from the application's directory.
@@ -610,7 +610,7 @@ On this stage, ``cartridge`` runs ``cartridge.post-build`` (if it exists) to rem
 junk files (like ``node_modules``) generated during application build.
 
 See an :ref:`example <cartridge-cli-example-cartridge-postbuild>`
-in :ref:`special files <special-files>`.
+in `special files <Special files_>`_.
 
 .. cartridge-cli-tgz:
 
