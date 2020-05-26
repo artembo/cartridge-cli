@@ -272,16 +272,16 @@ This command requires one argument -- the path to your application directory
 This command runs:
 
 1. ``cartridge.pre-build`` (or [DEPRECATED] ``.cartridge.pre``), if the
-   :ref:`pre-build file <cartridge-cli-special-files>` exists.
+   `pre-build file <Special files_>`_ exists.
    This builds the application in the ``path`` directory.
 2. ``tarantoolctl rocks make``, if the
-   :ref:`rockspec file <cartridge-cli-special-files>` exists.
+   `rockspec file <Special files_>`_ exists.
    This installs all Lua rocks to the `path` directory.
 
 During step 1 of the ``cartridge build`` command, ``cartridge`` builds the application
 inside the application directory -- unlike when building the application as part
 of the ``cartridge pack`` command, when the application is built in a temporary
-:ref:`build directory <cartridge-cli-build-directory>` and no build artifacts
+`build directory <Build directory>` and no build artifacts
 remain in the application directory.
 
 During step 2 -- the key step here -- ``cartridge`` installs all dependencies
@@ -321,7 +321,7 @@ To build an application in OS X and run it in Linux, call ``cartridge build``
 with the flag ``--use-docker`` and get the application built in a Docker container.
 
 This image is created similarly to the
-:ref:`build image <cartridge-cli-build-and-runtime-images>`
+`build image <Build and runtime images>`
 created during ``cartridge pack``.
 
 .. _cartridge-cli-starting-stopping-an-application-locally:
@@ -330,7 +330,7 @@ created during ``cartridge pack``.
 Starting/stopping an application locally
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Now that the application is :ref:`built <cartridge-cli-building-an-application>`,
+Now that the application is `built <Building an application_>`_,
 you can run it locally:
 
 .. code-block:: console
@@ -471,10 +471,10 @@ where:
 
 All types of distribution are described below:
 
-* :ref:`TGZ <cartridge-cli-tgz>`
-* :ref:`RPM <cartridge-cli-rpm-and-deb>`
-* :ref:`DEB <cartridge-cli-rpm-and-deb>`
-* :ref:`Docker <cartridge-cli-docker>`
+* `TGZ <TGZ_>`_
+* `RPM <RPM and DEB_>`_
+* `DEB <RPM and DEB_>`_
+* Docker_
 
 The options are:
 
@@ -541,7 +541,7 @@ Build directory
 ****************
 
 The first step of the packaging process is to
-:ref:`build the application <cartridge-cli-building-an-application>`.
+`build the application <Building an application_>`_.
 
 By default, application build is done in a temporary directory in
 ``~/.cartridge/tmp/``, so the packaging process doesn't affect the contents
@@ -597,7 +597,7 @@ Files permissions are preserved, and the code files owner is set to
 Stage 2. Building the application
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-On this stage, ``cartridge`` :ref:`builds <cartridge-cli-building-an-application>`
+On this stage, ``cartridge`` `builds <Building an application_>`_
 the application in the cleaned up application directory.
 
 .. _stage-3-cleaning-up-the-files-before-packing:
@@ -609,7 +609,7 @@ Stage 3. Cleaning up the files before packing
 On this stage, ``cartridge`` runs ``cartridge.post-build`` (if it exists) to remove
 junk files (like ``node_modules``) generated during application build.
 
-See an :ref:`example <cartridge-cli-example-cartridge-postbuild>`
+See an `example <Example cartridge postbuild_>`_
 in `special files <Special files_>`_.
 
 .. cartridge-cli-tgz:
@@ -619,7 +619,7 @@ TGZ
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ``cartridge pack tgz ./myapp`` creates a .tgz archive. It contains all files from the
-:ref:`distribution directory <cartridge-cli-distribution-directory>`
+`distribution directory <Distribution directory_>`_
 (i.e. the application source code and rocks modules described in the application
 rockspec).
 
