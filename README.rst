@@ -153,14 +153,14 @@ In a nutshell:
        cartridge create --name myapp
        cd ./myapp
 
-2. :ref:`Build <cartridge-cli-building-an-application>` the application
+2. `Build <Building an application_>_` the application
    for local development and testing:
 
    .. code-block:: console
 
        cartridge build
 
-3. :ref:`Run <cartridge-cli-starting-stopping-an-application-locally>`
+3. `Run <Starting/stopping an application locally_>`_
    instances locally:
 
    .. code-block:: console
@@ -168,7 +168,7 @@ In a nutshell:
        cartridge start
        cartridge stop
 
-4. :ref:`Pack <cartridge-cli-packing-an-application>` the application into
+4. `Pack <Packing an application_>`_ the application into
    a distributable (e.g. into an RPM package):
 
    .. code-block:: console
@@ -249,8 +249,6 @@ Let's take a closer look at the files inside the ``<app_name>/`` directory:
   * ``.luacheckrc``
   * ``.luacov``
   * ``.editorconfig``
-
-.. _cartridge-cli-building-an-application:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Building an application
