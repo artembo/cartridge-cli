@@ -117,7 +117,7 @@ That's all! You can visit http://localhost:8081 and see your application's Admin
    :align: center
    :scale: 100%
 
-You can find more details in the `documentation cartridge-cli-usage`__
+You can find more details in the `documentation <cartridge-cli-usage>`_
 or start with our
 `getting started guide <https://www.tarantool.io/en/doc/latest/getting_started/getting_started_cartridge/>`_.
 
