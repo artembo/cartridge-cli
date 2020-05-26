@@ -609,7 +609,7 @@ Stage 3. Cleaning up the files before packing
 On this stage, ``cartridge`` runs ``cartridge.post-build`` (if it exists) to remove
 junk files (like ``node_modules``) generated during application build.
 
-See an `example <Example cartridge postbuild_>`_
+See an `example <cartridge-cli-example-cartridge-postbuild_>`_
 in `special files <Special files_>`_.
 
 .. cartridge-cli-tgz:
@@ -989,7 +989,7 @@ packaging process (see examples below):
     * Packing to a Docker image isn't compatible with the deprecated
       packaging process.
 
-.. _cartridge-cli-example-cartridge-prebuild
+.. _cartridge-cli-example-cartridge-prebuild:
 
 *****************************
 Example: cartridge.pre-build
@@ -1004,7 +1004,7 @@ Example: cartridge.pre-build
 
     tarantoolctl rocks make --chdir ./third_party/my-custom-rock-module
 
-.. _cartridge-cli-example-cartridge-postbuild
+.. _cartridge-cli-example-cartridge-postbuild:
 
 ******************************
 Example: cartridge.post-build
